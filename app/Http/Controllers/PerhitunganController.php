@@ -106,8 +106,8 @@ class PerhitunganController extends Controller
         $cluster1 = 'c1';
         $cluster2 = 'c2';
         $cluster3 = 'c3';
-    $centroid1 = DB::table('data')
-    ->select(
+        $centroid1 = DB::table('data')
+        ->select(
         DB::raw('ROUND(SUM(c1) / COUNT(c1), 2) AS rata_c1'),
         DB::raw('ROUND(SUM(c2) / COUNT(c2), 2) AS rata_c2'),
         DB::raw('ROUND(SUM(c3) / COUNT(c3), 2) AS rata_c3'),
@@ -222,7 +222,6 @@ class PerhitunganController extends Controller
 
         }
         
-        dd ($centroid1, $centroid2, $centroid3, $clusterTerdekat, $c1Data, $c2Data, $c2Data, $jumlah, $minTotal, $maxTotal, $middleTotal, $jarak, $jarak2);
         return view('dataset',compact('centroid1','centroid2','centroid3','data'
         ,'clusterTerdekat','data2','jumlah','minTotal'
         ,'maxTotal','middleTotal','c1Data','c2Data','c3Data','jarak','jarak2'));

@@ -11,7 +11,14 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="">
+        <a class="nav-link collapsed" href="{{route('input')}}">
+          <i class="bi bi-arrow-down-up"></i>
+          <span>Input Data Siswa</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="{{route('algoritma')}}">
           <i class="bi bi-book"></i>
           <span>Algoritma</span>
         </a>
