@@ -31,16 +31,16 @@
                     <th scope="col">Nama</th>
                     <th scope="col">Kelas</th>
                     <th scope="col">Jenis Kelamin</th>
-                    <th scope="col">c1</th>
-                    <th scope="col">c2</th>
-                    <th scope="col">c3</th>
-                    <th scope="col">c4</th>
-                    <th scope="col">c5</th>
-                    <th scope="col">c6</th>
-                    <th scope="col">c7</th>
-                    <th scope="col">c8</th>
-                    <th scope="col">c9</th>
-                    <th scope="col">c10</th>
+                    <th scope="col">v1</th>
+                    <th scope="col">v2</th>
+                    <th scope="col">v3</th>
+                    <th scope="col">v4</th>
+                    <th scope="col">v5</th>
+                    <th scope="col">v6</th>
+                    <th scope="col">v7</th>
+                    <th scope="col">v8</th>
+                    <th scope="col">v9</th>
+                    <th scope="col">v10</th>
                     <th scope="col">Total</th>
                   </tr>
                 </thead>
@@ -106,16 +106,16 @@
                     <th scope="col">Nama</th>
                     <th scope="col">Kelas</th>
                     <th scope="col">Jenis Kelamin</th>
-                    <th scope="col">c1</th>
-                    <th scope="col">c2</th>
-                    <th scope="col">c3</th>
-                    <th scope="col">c4</th>
-                    <th scope="col">c5</th>
-                    <th scope="col">c6</th>
-                    <th scope="col">c7</th>
-                    <th scope="col">c8</th>
-                    <th scope="col">c9</th>
-                    <th scope="col">c10</th>
+                    <th scope="col">v1</th>
+                    <th scope="col">v2</th>
+                    <th scope="col">v3</th>
+                    <th scope="col">v4</th>
+                    <th scope="col">v5</th>
+                    <th scope="col">v6</th>
+                    <th scope="col">v7</th>
+                    <th scope="col">v8</th>
+                    <th scope="col">v9</th>
+                    <th scope="col">v10</th>
                     <th scope="col">Total</th>
                             </tr>
                         </thead>
@@ -170,16 +170,16 @@
                     <th scope="col">Nama</th>
                     <th scope="col">Kelas</th>
                     <th scope="col">Jenis Kelamin</th>
-                    <th scope="col">c1</th>
-                    <th scope="col">c2</th>
-                    <th scope="col">c3</th>
-                    <th scope="col">c4</th>
-                    <th scope="col">c5</th>
-                    <th scope="col">c6</th>
-                    <th scope="col">c7</th>
-                    <th scope="col">c8</th>
-                    <th scope="col">c9</th>
-                    <th scope="col">c10</th>
+                    <th scope="col">v1</th>
+                    <th scope="col">v2</th>
+                    <th scope="col">v3</th>
+                    <th scope="col">v4</th>
+                    <th scope="col">v5</th>
+                    <th scope="col">v6</th>
+                    <th scope="col">v7</th>
+                    <th scope="col">v8</th>
+                    <th scope="col">v9</th>
+                    <th scope="col">v10</th>
                     <th scope="col">Total</th>
                             </tr>
                         </thead>
@@ -236,16 +236,16 @@
                   <thead class="text-dark ">
         <tr>
             <th></th>
-            <th scope="col">c1</th>
-                    <th scope="col">c2</th>
-                    <th scope="col">c3</th>
-                    <th scope="col">c4</th>
-                    <th scope="col">c5</th>
-                    <th scope="col">c6</th>
-                    <th scope="col">c7</th>
-                    <th scope="col">c8</th>
-                    <th scope="col">c9</th>
-                    <th scope="col">c10</th>
+            <th scope="col">v1</th>
+                    <th scope="col">v2</th>
+                    <th scope="col">v3</th>
+                    <th scope="col">v4</th>
+                    <th scope="col">v5</th>
+                    <th scope="col">v6</th>
+                    <th scope="col">v7</th>
+                    <th scope="col">v8</th>
+                    <th scope="col">v9</th>
+                    <th scope="col">v10</th>
             <th>Total</th>
         </tr>
     </thead>
@@ -363,16 +363,16 @@
                             <tr>
                                 <td>No</td>
                                 <td>Cluster</td>
-                                <th scope="col">c1</th>
-                    <th scope="col">c2</th>
-                    <th scope="col">c3</th>
-                    <th scope="col">c4</th>
-                    <th scope="col">c5</th>
-                    <th scope="col">c6</th>
-                    <th scope="col">c7</th>
-                    <th scope="col">c8</th>
-                    <th scope="col">c9</th>
-                    <th scope="col">c10</th>
+                                <th scope="col">v1</th>
+                    <th scope="col">v2</th>
+                    <th scope="col">v3</th>
+                    <th scope="col">v4</th>
+                    <th scope="col">v5</th>
+                    <th scope="col">v6</th>
+                    <th scope="col">v7</th>
+                    <th scope="col">v8</th>
+                    <th scope="col">v9</th>
+                    <th scope="col">v10</th>
                             </tr>
                         </thead>
                         <tbody class="text-dark">
@@ -421,16 +421,16 @@
     <thead class="text-dark">
         <tr>
             <th></th>
-            <th scope="col">c1</th>
-                    <th scope="col">c2</th>
-                    <th scope="col">c3</th>
-                    <th scope="col">c4</th>
-                    <th scope="col">c5</th>
-                    <th scope="col">c6</th>
-                    <th scope="col">c7</th>
-                    <th scope="col">c8</th>
-                    <th scope="col">c9</th>
-                    <th scope="col">c10</th>
+            <th scope="col">v1</th>
+                    <th scope="col">v2</th>
+                    <th scope="col">v3</th>
+                    <th scope="col">v4</th>
+                    <th scope="col">v5</th>
+                    <th scope="col">v6</th>
+                    <th scope="col">v7</th>
+                    <th scope="col">v8</th>
+                    <th scope="col">v9</th>
+                    <th scope="col">v10</th>
         </tr>
     </thead>
     <tbody class="text-dark">
@@ -545,16 +545,16 @@
                             <tr>
                                 <td>No</td>
                                 <td>Cluster</td>
-                                    <th scope="col">c1</th>
-                    <th scope="col">c2</th>
-                    <th scope="col">c3</th>
-                    <th scope="col">c4</th>
-                    <th scope="col">c5</th>
-                    <th scope="col">c6</th>
-                    <th scope="col">c7</th>
-                    <th scope="col">c8</th>
-                    <th scope="col">c9</th>
-                    <th scope="col">c10</th>
+                                <th scope="col">v1</th>
+                    <th scope="col">v2</th>
+                    <th scope="col">v3</th>
+                    <th scope="col">v4</th>
+                    <th scope="col">v5</th>
+                    <th scope="col">v6</th>
+                    <th scope="col">v7</th>
+                    <th scope="col">v8</th>
+                    <th scope="col">v9</th>
+                    <th scope="col">v10</th>
                             </tr>
                         </thead>
                         <tbody class="text-dark">
