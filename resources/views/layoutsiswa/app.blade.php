@@ -39,11 +39,53 @@
     <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js" ></script>
     <script src="https://unpkg.com/jquery@2.2.4/dist/jquery.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
-    
-    <style>
-            .header2 {
+<style>
+.header {
+  transition: all 0.5s;
+  z-index: 997;
+  height: 60px;
+  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+  background-color: #a33dfc;
+  padding-left: 20px;
+  /* Toggle Sidebar Button */
+  /* Search Bar */
+}
+
+.profile-img {
+  width: 50px;
+  height: 180px;
+  object-fit: cover; /* Menghindari distorsi */
+  border: 2px solid #ddd; /* Garis tepi gambar */
+  margin-right: 10px; /* Spasi antara gambar dan elemen lain */
+}
+
+.sidebar {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 996;
+  transition: all 0.3s;
+  padding: 20px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #aab7cf transparent;
+  box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
+  background-color: #a33dfc;
+}
+
+.profile-img {
+  width: 50px;
+  height: 180px;
+  object-fit: cover; /* Menghindari distorsi */
+  border: 2px solid #ddd; /* Garis tepi gambar */
+  margin-right: 10px; /* Spasi antara gambar dan elemen lain */
+}
+
+    .header2 {
       width: 100%;
-      background-color: #f97474;
+      background-color: #007bff;
       color: #fff;
       padding: 10px 20px;
       display: flex;
@@ -72,7 +114,7 @@
     }
 
 </style>
-    </style>
+
 </head>
 
 <body>
@@ -90,13 +132,13 @@
 </div>
 
     {{-- ----------------------NAVBAR---------------------- --}}
-    @include('layouts.navbar')
+    @include('layoutsiswa.navbar')
     
 
   </header>
 
-    {{-- ----------------------SIDEBAR---------------------- --}}
-    @include('layouts.sidebar')
+    <!--{{-- ----------------------SIDEBAR---------------------- --}}-->
+    <!--@include('layoutsiswa.sidebar')-->
 
   <main id="main" class="main">
 

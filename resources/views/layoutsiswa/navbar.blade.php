@@ -21,15 +21,10 @@
 
     </style>
     
-<nav class="header-nav ms-auto">
-
-<nav class="header-nav ms-auto">
+    <nav class="header-nav ms-auto">
+      
   <div class="header">
-    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="margin: 0;">
-      @csrf
-      <button type="submit" class="btn-back">Logout</button>
-    </form>
+    <a href="{{url('/')}}" class="btn-back">Kembali</a>
   </div>
-</nav>
 
-</nav>
+    <!--</nav>-->

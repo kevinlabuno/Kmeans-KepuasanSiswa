@@ -8,31 +8,34 @@ use App\Models\Jawaban;
 use Illuminate\Support\Facades\DB;
 use App\Models\User;
 use App\Models\Kelas;
-
-class InputController extends Controller
+class SiswaController extends Controller
 {
-    public function index(){
+     public function index(){
         $gurus = User::where('jabatan', 'guru')->pluck('nama');
-        $data = Kelas::all();
-        return view('input',compact('gurus','data'));
+        return view('siswa.input',compact('gurus'));
     }
 
-    public function hasil(){
+    public function hasil_input(){
         $data = Jawaban::latest()->first();
-        return view('hasil',compact('data'));
+        return view('siswa.hasil',compact('data'));
     }
 
     public function algoritma(){
-        return view('algoritma');
+        return view('siswa.algoritma');
     }
 
-    public function datainput(){
-         $data1 = DB::table('data')->orderBy('created_at', 'desc')->first();
-        $data2 = DB::table('jawaban')->orderBy('created_at', 'desc')->first();
-        return view('datainput',compact('data1','data2'));
+    public function beranda(){
+        return view('siswa.beranda');
     }
 
-   public function post(Request $request) {
+
+     public function input(){
+        $gurus = User::where('jabatan', 'guru')->pluck('nama');
+         $data = Kelas::all();
+        return view('siswa.input',compact('gurus','data'));
+    }
+
+    public function post(Request $request) {
     $validatedData = $request->validate([
         'nama' => 'required|string|max:255',
         'kelas' => 'required|string|max:255',
@@ -97,7 +100,7 @@ class InputController extends Controller
 
     $this->proses();
 
-    return redirect()->route('datainput')->with('success', 'Data berhasil disimpan. Terima Kasih');
+    return redirect()->route('siswa.hasil')->with('success', 'Data berhasil disimpan. Terima Kasih');
 }
 
 public function proses() {
@@ -307,6 +310,6 @@ public function proses() {
             ->where('id', $datas->id)
             ->update(['cluster2' => $clusterTerdekat]);
     }
+    return redirect()->route('siswa.hasil')->with('success','Data Siswa Berhasil Disimpan!');
 }
-
 }

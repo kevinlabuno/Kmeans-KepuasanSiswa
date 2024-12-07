@@ -18,6 +18,7 @@ class CreateJawabanTable extends Migration
             $table->string('nama');
             $table->string('kelas');
             $table->string('jenis');
+            $table->string('guru');
             $table->string('c1');
             $table->string('c2');
             $table->string('c3');

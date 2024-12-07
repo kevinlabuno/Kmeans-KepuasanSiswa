@@ -37,16 +37,17 @@
                         <th scope="col">Nama</th>
                         <th scope="col">Kelas</th>
                         <th scope="col">Jenis Kelamin</th>
-                        <th scope="col">c1</th>
-                        <th scope="col">c2</th>
-                        <th scope="col">c3</th>
-                        <th scope="col">c4</th>
-                        <th scope="col">c5</th>
-                        <th scope="col">c6</th>
-                        <th scope="col">c7</th>
-                        <th scope="col">c8</th>
-                        <th scope="col">c9</th>
-                        <th scope="col">c10</th>
+                        <th scope="col">Guru</th>
+                        <th scope="col">v1</th>
+                    <th scope="col">v2</th>
+                    <th scope="col">v3</th>
+                    <th scope="col">v4</th>
+                    <th scope="col">v5</th>
+                    <th scope="col">v6</th>
+                    <th scope="col">v7</th>
+                    <th scope="col">v8</th>
+                    <th scope="col">v9</th>
+                    <th scope="col">v10</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -55,6 +56,7 @@
                         <td>{{ $data2->nama }}</td>
                         <td>{{ $data2->kelas }}</td>
                         <td>{{ $data2->jenis }}</td>
+                        <td>{{ $data2->guru }}</td>
                         <td>{{ $data2->c1 }}</td>
                         <td>{{ $data2->c2 }}</td>
                         <td>{{ $data2->c3 }}</td>
@@ -83,16 +85,17 @@
                         <th scope="col">Nama</th>
                         <th scope="col">Kelas</th>
                         <th scope="col">Jenis Kelamin</th>
-                        <th scope="col">c1</th>
-                        <th scope="col">c2</th>
-                        <th scope="col">c3</th>
-                        <th scope="col">c4</th>
-                        <th scope="col">c5</th>
-                        <th scope="col">c6</th>
-                        <th scope="col">c7</th>
-                        <th scope="col">c8</th>
-                        <th scope="col">c9</th>
-                        <th scope="col">c10</th>
+                        <th scope="col">Guru</th>
+                        <th scope="col">v1</th>
+                    <th scope="col">v2</th>
+                    <th scope="col">v3</th>
+                    <th scope="col">v4</th>
+                    <th scope="col">v5</th>
+                    <th scope="col">v6</th>
+                    <th scope="col">v7</th>
+                    <th scope="col">v8</th>
+                    <th scope="col">v9</th>
+                    <th scope="col">v10</th>
                         <th scope="col">Total</th>
                     </tr>
                 </thead>
@@ -102,6 +105,7 @@
                         <td>{{ $data1->nama }}</td>
                         <td>{{ $data1->kelas }}</td>
                         <td>{{ $data1->jenis }}</td>
+                        <td>{{ $data1->guru }}</td>
                         <td>{{ $data1->c1 }}</td>
                         <td>{{ $data1->c2 }}</td>
                         <td>{{ $data1->c3 }}</td>

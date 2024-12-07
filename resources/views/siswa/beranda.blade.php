@@ -1,11 +1,11 @@
-@extends('layouts.app')
+@extends('layoutsiswa.app')
 
 @section('content')
 <div class="container">
      
     <h2>Aplikasi Tingkat Kepuasan Siswa Terhadap Metode Pengajaran Guru</h2>
      @if (session('success'))
-        <div class="alert alert-success">
+        <div class="alert alert-danger">
             {{ session('success') }}
         </div>
     @endif
